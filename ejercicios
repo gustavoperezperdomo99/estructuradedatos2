@@ -46,4 +46,58 @@ print ("guitarra" in s)#true
 
 7 ejercicio dia 9
 
+s1 = set ([1,2,3])
+s2 = set ([3,4,5])
+print(s1 | s2) #1,2,3,4,5
+
+8 ejercicio dia 9
+s = set ([1,2])
+s.discard(3)
+print(s) #1,2
+
+s = set ([1,2])
+s.pop
+print(s) #1,2
+
+9 ejercicio dia 9
+s = set ([1,2])
+s.clear()
+print(s) #set
+para limpiar todos los elementos
+
+10 ejercicio dia 9
+
+s1 = {1,2,3}
+s2 = {3,4,5}
+print (s1.union(s2))
+une los 2 s1 y s2
+
+11 ejercicio dia 9
+
+s1 = {1,2,3}
+s2 = {3,4,5}
+print (s1.intersection(s2)) #3
+
+12 ejercicio dia 9
+
+# 1. Inicialización: crear los sets con habilidades iniciales
+frontend = {'HTML', 'CSS', 'JavaScript', 'React'}
+backend = {'Python', 'SQL', 'JavaScript', 'Django'}
+
+frontend.add('Vue.js')
+
+
+backend.discard('Django')  # uso discard 
+# Unión: todas las habilidades únicas en la empresa
+habilidades_unicas = frontend.union(backend)
+# Intersección: habilidades que tienen en común ambos equipos
+habilidades_comunes = frontend.intersection(backend)
+# Diferencia: habilidades exclusivas del equipo frontend
+habilidades_exclusivas_frontend = frontend.difference(backend)
+
+# Mostrar resultados
+print("Habilidades únicas en la empresa:", habilidades_unicas)
+print("Habilidades comunes a ambos equipos:", habilidades_comunes)
+print("Habilidades exclusivas del equipo Frontend:", habilidades_exclusivas_frontend)
+
 
