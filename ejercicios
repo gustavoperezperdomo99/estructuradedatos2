@@ -1,0 +1,49 @@
+1 ejercicio dia 9/15/2025
+s = set ([5,4,6,8,8,1])
+print(s)   #{1,4,5,6,8}
+print(type(s)) #<class'set'>
+
+
+2 ejercicio dia 9/15/2025
+
+s =  {5,4,6,8,8,1}
+print(s)   #{1,4,5,6,8}
+print(type(s)) #<class'set'>
+
+3 ejercicio dia 9/15/2025
+
+este tiene que dar error
+lista= ["peru","argentina"]
+#s = set (["mexico","españa",lista]) #error! typeError 
+
+asi deberia quedar
+
+lista = ["peru", "argentina"]
+lista.append("chile")  #  Usamos append para agregar un país a la lista
+
+s = set(["mexico", "españa"] + lista)
+print(s)
+
+
+4 ejercicio dia 9/15/2025
+
+asi queda de la manera de una lista:
+s = set([5,6,7,8])
+for ss in s:
+    print(ss) #8,5,6,7
+
+5 ejercicio dia 9/15/2025
+
+s = set ([1,2,2,3,4])
+print(len(s))#4
+
+s = set(["manzana", "pera", "manzana", "uva", "pera"])
+print(len(s))  # ¿Qué imprime? 3
+
+6 ejercicio dia 9
+s = set(["guitarra","bajo"])
+print ("guitarra" in s)#true
+
+7 ejercicio dia 9
+
+
