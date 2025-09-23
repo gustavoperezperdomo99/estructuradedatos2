@@ -257,3 +257,22 @@ coordenadas[punto] = "ubicacion a"
 print(coordenadas) #
 
 ejercicio 19
+
+def operaciones (a,b):
+    return a + b, a - b, a * b
+    
+suma, resta, producto = operaciones (5,3)
+print(suma,resta,producto) #8 2 15
+
+ejercicio 20
+
+fruta = ("manzana", "pera","uva")
+
+for i, fruta in enumerate(fruta):
+    print(i,fruta)
+
+ejercicio 21
+
+a,b = 10,20
+a,b = b, a
+print(a,b)
