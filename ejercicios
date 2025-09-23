@@ -113,7 +113,85 @@ print("Habilidades exclusivas del equipo Frontend:", habilidades_exclusivas_fron
 9/23/2025        clase 
 
 
+ejercicion numero 1 tuplan#
 
+mi_tupla = (1,2,3, "hola", true)
+print(mi_tupla)
 
+#latupla guarda  diferentes tipos de datos
+#enteros 1 2 3
+#cadenas hola
+#boleanos true
 
+ejercicio 2 tupla
+
+t = (1,1,2,3,3,3)
+print (t) 
+
+ejercicio 3
+#ejemplo de lista
+
+lista = [1,2,3]
+
+#ejemplo de tupla
+tupla = (1,2,3)
+
+#en la lista se puede modificar el valor
+lista[0] = 10
+
+#en tuplas intentar modificar un archivo  da error
+
+ejercicio 4
+
+coordenadas = (40.7128, -74.0060) #latitud y longitud 
+
+#coordenadas[0] = 41.0
+
+ejercicio 5
+
+tupla1 = (1,2,3)  #tuipla con emterps
+tupla2 = ("a","b","c") #tupla con cadena de texto
+tupla3 = (1,"hola",3.5) #tupla con tipos mixtos
+tupla4 = ( )  #tupla vacia
+tupla5 = (5,)  #tupla con un solo elemento}
+
+#para que una tupla sea de un solo elemento debe llevar , al final
+
+ejercicio 6
+
+tupla = ("python", 2025,True)
+
+print(tupla[0]) #accede al alemento python
+print(tupla[1]) #accede el segundo elemento 
+print(tupla[-1]) #accede al ultimo elemento
+
+ejercicio 7
+
+tupla = (10,20,30,40,50)
+
+print(tupla[1:4]) #del indice 1 al 3 20 30 40
+print(tupla[:3]) #desde el inicio hasta el indice 2 10 20 30
+print(tupla[::2])#saltando de 2 en 2
+
+ejercicio 8
+
+colores = ("rojo","azul","verde")
+
+for color in colores: #recorte cada elemento de la tupla
+    print(color)
+
+ejercicio 9
+
+t = ((1,2), (3,4), (5,6))
+
+print(t[0])
+print(t[0][1])
+
+ejercicio 10
+
+t1 = (1,2,3)
+t2 = (4,5,6)
+resultado = t1 + t2
+
+print(resultado)
 
