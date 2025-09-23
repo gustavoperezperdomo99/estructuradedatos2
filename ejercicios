@@ -84,6 +84,16 @@ print (s1.intersection(s2)) #3
 frontend = {'HTML', 'CSS', 'JavaScript', 'React'}
 backend = {'Python', 'SQL', 'JavaScript', 'Django'}
 
+
+
+
+9/13/2025    
+
+
+ejercico 1
+
+
+
 frontend.add('Vue.js')
 
 
