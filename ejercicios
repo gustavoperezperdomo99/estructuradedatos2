@@ -195,3 +195,65 @@ resultado = t1 + t2
 
 print(resultado)
 
+ejercicio 11
+t = ("phyron",) * 3
+print(t)
+#al imprimr se repetira 3 veces lo almacenado
+
+ejercicio 12
+
+t = (10,20,30,40)
+
+print(20 in t)
+print(50 not in t)
+
+ejercicio 13
+
+persona = ("nicolas", 22, "colombia")
+nombre, edad, pais = persona
+
+print(persona)
+
+ejercicio 14
+
+t = (1,2,3,4)
+
+print(t.count(2))
+print(t.index(3))
+
+ejercicio 15
+
+t = (5,1,7,3)
+
+print(len(t))
+print(max(t))
+print(min(t))
+print(sum(t))
+print(sorted(t))
+
+
+ejercicio 16
+lista = [1,2,3]
+tupla = tuple(lista)
+print(tupla) #1,2,3
+
+nueva_lista = list(tupla)
+print(nueva_lista) #
+
+ejercicio 17
+persona = ("nicolas", 22, "colombia")
+
+#acceder a cada tributo usando indices
+
+print("nombre:", persona[0])
+print("edad:", persona[1])
+print("pais", persona[2])
+
+ejercicio 18
+coordenadas = {}
+punto = (10,20)
+
+coordenadas[punto] = "ubicacion a"
+print(coordenadas) #
+
+ejercicio 19
